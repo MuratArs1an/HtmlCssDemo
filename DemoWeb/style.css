@@ -1,0 +1,172 @@
+/* Bosluklari sifirla*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#sayfa{
+    width: 900px;
+    border-style: solid;
+    border-width: 2px;
+    min-height: 600px;
+    background-color: rgb(214, 207, 207);
+    border-color: orange;
+    margin: auto;
+}
+
+#banner{
+    width: 896px;
+    height: 100px;
+    background-color: rgb(214, 207, 207);
+}
+
+#logo{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 10px;
+    float: left;
+    background-color: rgb(214, 207, 207);
+}
+.m2{
+    width: 90px;
+    height:90px;
+}
+.m3{
+    width: 60px;
+    height: 70px;
+}
+#sosyal{
+    width: 180px;
+    height: 70px;
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+#sosyal a{
+    width: 60px;
+    height: 70px;
+    float: right;
+}
+#anamenu{
+    width: 896px;
+    height: 50px;
+    background-color: gray;
+    float: left;
+    border-radius: 10px;
+}
+
+#anamenu ul{
+    list-style-type:none;
+}
+
+#anamenu ul li{
+    border-style: solid;
+    width: 120px;
+    border-radius: 6px;
+    border-width: 2px;
+    float: left;
+    border-color:aquamarine;
+    background-color: rgb(34, 30, 26);
+    margin: 1px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    padding-top: 5px;
+    margin-top: 3px;
+}
+
+#anamenu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#anamenu ul li a:visited{
+    color: red;
+}
+
+#anamenu ul li a:hover{
+    color:gray;
+    font-size: larger;
+}
+
+#anamenu ul a:active{
+    color: hotpink;
+}
+
+#icerik{
+    width: 730px;
+    height: 380px;
+    float: left;
+    overflow: scroll;
+}
+#icerik p{
+    color: black;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#icerik h2{
+    color: orangered;
+}
+
+#yanmenu{
+    width: 150px;
+    height: 380px;
+    border-style: groove;
+    border-color: blue;
+    float: left;
+}
+#yanmenu h3{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: orange;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#yanmenu ul li{
+    border-style: solid;
+    width: 120px;
+    border-radius: 6px;
+    border-width: 2px;
+    float: top;
+    border-color:darkblue;
+    background-color: rgb(243, 231, 220);
+    margin: 1px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+#yanmenu ul li a{
+    color: darkcyan;
+}
+
+#yanmenu ul a:hover{
+    color: red;
+    font-size: large;
+}
+
+#footer{
+    float: left;
+    background-color: aquamarine;
+    width: 890px;
+    height: 55px;
+    color: black;
+    text-align: center;
+    border-width: 3px;
+    border-style: groove;
+}
+
+#footer a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bolder;
+    color: darkblue;
+}
